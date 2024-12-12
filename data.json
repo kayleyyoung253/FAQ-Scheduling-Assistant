@@ -1,0 +1,285 @@
+{
+    "doctors": {
+        "Bill": {
+            "new_patients": {
+                "status": "open",
+                "notes": "Accepting new patients with PRIVATE insurance! Molina ONLY OK FOR siblings of existing patients.",
+                "max_per_hour": 1,
+                "exceptions": null
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,12,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY OTHER YR AFTER 5 yrs"
+                ],
+                "notes": null
+            },
+            "sutures": {
+                "availability": "For INJURY appts, must be before 3pm, and not on SATURDAYS.",
+                "special_procedures": [
+                    "Can also do FRENECTOMIES on any sick slot"
+                ]
+            },
+            "telemed": {
+                "availability": [
+                    "12:30 PM",
+                    "5:30 PM ONLY IF APPROVED by DOC"
+                ],
+                "platforms": [
+                    "Facetime",
+                    "Zoom",
+                    "Phone/Email"
+                ]
+            }
+        },
+        "Anna": {
+            "new_patients": {
+                "status": "open",
+                "notes": "MAX: 1 NEW PT PER HR unless siblings",
+                "max_per_hour": 1,
+                "exceptions": null
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,9,12,15,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY 1 YR AFTER 5 yrs"
+                ],
+                "notes": "NO TRIPLE WELL CHECKS. MUST HAVE 2 CONSECUTIVE SLOTS \u2013 NO OTHER APPTS IN BETWEEN SIBS."
+            },
+            "sutures": {
+                "availability": "MUST BE 10 YO OR OLDER, NOT FACE, 30 MINS AT 11:30 ONLY.",
+                "special_procedures": [
+                    "Can also do FRENECTOMIES @11:45AM"
+                ]
+            },
+            "telemed": {
+                "availability": [
+                    "12 and 12:30 PM",
+                    "5:30 PM ONLY IF APPROVED by DOC"
+                ],
+                "platforms": [
+                    "Doximity",
+                    "Phone-send text"
+                ]
+            }
+        },
+        "Meta": {
+            "new_patients": {
+                "status": "open",
+                "notes": "Accepting new patients with PRIVATE insurance. Molina OK for NEWBORNS or siblings of existing patients.",
+                "max_per_hour": 1,
+                "exceptions": "No back-to-back new patients."
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,9,12,15,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY 1 YR AFTER 5 yrs"
+                ],
+                "notes": null
+            },
+            "sutures": {
+                "availability": "REMOVAL ONLY \u2013 YES",
+                "special_procedures": null
+            },
+            "telemed": {
+                "availability": [
+                    "12:30 PM",
+                    "5:30 PM CAN BE FOR ANYTHING. NO APPROVAL NEEDED PER META."
+                ],
+                "platforms": [
+                    "Doximity",
+                    "Phone-send text"
+                ]
+            }
+        },
+        "Megan": {
+            "new_patients": {
+                "status": "open",
+                "notes": "MAX: 1 NEW PT PER HR unless siblings",
+                "max_per_hour": 1,
+                "exceptions": null
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,9,12,15,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY 1 YR AFTER 5 yrs"
+                ],
+                "notes": "MUST HAVE 2 CONSECUTIVE SLOTS \u2013 NO OTHER APPTS IN BETWEEN SIBS."
+            },
+            "sutures": {
+                "availability": "REMOVAL ONLY \u2013 YES",
+                "special_procedures": null
+            },
+            "telemed": {
+                "availability": [
+                    "11:45 AM till 12:30 AM",
+                    "5:30 PM ONLY IF APPROVED by DOC"
+                ],
+                "platforms": [
+                    "Doximity",
+                    "Phone-send text"
+                ]
+            }
+        },
+        "Claire": {
+            "new_patients": {
+                "status": "open",
+                "notes": "MAX: 1 NEW PT PER HR unless siblings",
+                "max_per_hour": 1,
+                "exceptions": null
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,9,12,15,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY 1 YR AFTER 5 yrs"
+                ],
+                "notes": null
+            },
+            "sutures": {
+                "availability": "REMOVAL ONLY \u2013 YES",
+                "special_procedures": null
+            },
+            "telemed": {
+                "availability": [
+                    "12:30 PM",
+                    "5:30 PM ONLY IF APPROVED by DOC"
+                ],
+                "platforms": [
+                    "Doximity",
+                    "Phone-send text"
+                ]
+            }
+        },
+        "Jennifer": {
+            "new_patients": {
+                "status": "open",
+                "notes": "MAX: 1 NEW PT PER HR unless siblings",
+                "max_per_hour": 1,
+                "exceptions": null
+            },
+            "newborn": {
+                "availability": "ANY NEWBORN OR SICK SLOT",
+                "notes": "ASK BEFORE DOUBLE BOOKING / FITTING IN BABY. OK to book in any sick or well slot up to 1 week in advance."
+            },
+            "prenatal": {
+                "slot": "1:15pm"
+            },
+            "shot_only": {
+                "policy": "DO NOT SCHEDULE SHOT ONLY VISITS-MUST BE TRIAGED BY THE NURSE FIRST.",
+                "max_per_day": 3,
+                "schedule": [
+                    "morning",
+                    "afternoon"
+                ],
+                "slot": ":45 hour slots"
+            },
+            "well_checkups": {
+                "ages": [
+                    "2,4,6,9,12,15,18 mos",
+                    "2yr,30mos.,3,4,5 yrs",
+                    "EVERY 1 YR AFTER 5 yrs"
+                ],
+                "notes": null
+            },
+            "sutures": {
+                "availability": "REMOVAL ONLY \u2013 YES",
+                "special_procedures": null
+            },
+            "telemed": {
+                "availability": [
+                    "12:30 PM",
+                    "5:30 PM ONLY IF APPROVED by DOC"
+                ],
+                "platforms": [
+                    "Doximity",
+                    "Phone-send text"
+                ]
+            }
+        }
+    }
+}

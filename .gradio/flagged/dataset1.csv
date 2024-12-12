@@ -1,0 +1,12 @@
+question,output,timestamp
+What are the well check-up ages for each doctor?,"Doctor: Bill, Well_checkups: {'ages': ['2,4,6,12,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY OTHER YR AFTER 5 yrs'], 'notes': None}
+
+Doctor: Anna, Well_checkups: {'ages': ['2,4,6,9,12,15,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY 1 YR AFTER 5 yrs'], 'notes': 'NO TRIPLE WELL CHECKS. MUST HAVE 2 CONSECUTIVE SLOTS – NO OTHER APPTS IN BETWEEN SIBS.'}
+
+Doctor: Meta, Well_checkups: {'ages': ['2,4,6,9,12,15,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY 1 YR AFTER 5 yrs'], 'notes': None}
+
+Doctor: Megan, Well_checkups: {'ages': ['2,4,6,9,12,15,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY 1 YR AFTER 5 yrs'], 'notes': 'MUST HAVE 2 CONSECUTIVE SLOTS – NO OTHER APPTS IN BETWEEN SIBS.'}
+
+Doctor: Claire, Well_checkups: {'ages': ['2,4,6,9,12,15,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY 1 YR AFTER 5 yrs'], 'notes': None}
+
+Doctor: Jennifer, Well_checkups: {'ages': ['2,4,6,9,12,15,18 mos', '2yr,30mos.,3,4,5 yrs', 'EVERY 1 YR AFTER 5 yrs'], 'notes': None}",2024-12-11 20:24:05.381594
